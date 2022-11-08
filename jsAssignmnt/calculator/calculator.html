@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="./calculator.js"></script>
+</head>
+<body>
+    <h1 style="color:blueviolet; text-align: center;">Caclulator</h1>
+    <label for="firstnum">Enter 1st Number:</label>
+    <input type="number" id="firstnum" name="firstnum"> </br> </br>
+
+    <label for="secondnum">Enter 2nd Number:</label>
+    <input type="number" id="secondnum" name="secondnum"> </br>
+
+    <p> Select the arithmatic operation you want to perform </p> </br>
+
+    <input type="button" onclick="adding()" value ="Add"> 
+    <input type="button" onclick="multiplying()" value ="Multiply"> 
+    <input type="button" onclick="dividing()" value ="Divide"> 
+    <input type="button" onclick="subtracting()" value ="Subtract"> </br> </br>
+
+    <p> The result of your computation is :  </p>
+    <p id="result"></p>
+     
+    
+
+
+    
+</body>
+</html>
